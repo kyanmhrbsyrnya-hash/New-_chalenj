@@ -1,0 +1,28 @@
+num=int(input('عدد را وارد کنید '))
+if(num>10):
+    print('عدد قبول است')
+elif(num<10 and num%2==0):
+    print('smal_even')
+
+
+####گرفتن اطلاعات کاربری
+name=input('نام خود را وارد کنید :')
+login=int(input('لطفا شماره رو وارد کنید'))
+if(name=='admin' and login==1234):
+    print('خوش امدید')
+else:
+        print('سیکتیر')
+
+
+####
+num1=int(input('لطفا یک عدد وارد کنید: '))
+if(1<=num1<=100):
+    print('vaild_ number')
+elif(num1<1):
+    print('too_low')
+elif(num1>100):
+    print('too high')
+
+
+
+####
