@@ -1,0 +1,36 @@
+####سیستم تخفیف گذاری
+price=int(input('لطفا قیمت را وارد کنید'))
+if(price>=500000):
+    print('تخفیف۱۰%')
+elif(300000<=price<=500000):
+    print('تخفیف۵%')
+else:
+    print('تخفیف وجود ندارد')
+
+
+
+####وضعیت نمره دانش اموزان
+score=int(input('نمره دانش اموز: '))
+if(17<score<=20):
+    print('Exllent')
+elif(10<score<17):
+    print('Good')
+elif(score<10):
+    print('try again')
+else:
+    print('wrong score')
+
+
+
+####چالش عدد مثبت و منفی فرد یا زوج
+num=int(input('لطفا یک عدد وارد کنید: '))
+if(num>0 and num%2==0):
+    print('عدد زوج است و مثبت است')
+elif(num>0 and num%2!=0):
+    print('عدد مثبت است و فرد')
+elif(num<0 and num%2==0):
+    print('عدد منفی و زوج است')
+elif(num<0 and num%2!=0):
+    print('عدد منفی و فرد است')
+else:
+    print('عدد صفر است')
