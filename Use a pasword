@@ -1,0 +1,31 @@
+####گرفتن رمز عبور با محدودیت
+pas=(1234)
+user=int(input('لطفارمز خود را وارد کنید: '))
+daf=(1)
+if(user==pas):
+    print('رمز درست است')
+while(user!=pas and daf<=3):
+    print(' رمز اشتباه است')
+    user=int(input('لطفا دوباره واردکنید'))
+    daf=daf+1
+if(daf>3):
+    print('تعداد دفعات وارد شده تمام شد')
+#######################################password = 1234
+attempts = 0 
+
+while attempts < 3:
+    user_input = int(input("رمز را وارد کن: "))
+    
+    if user_input == password:
+        print("خوش آمدید!")
+        break  
+    else:
+        attempts = attempts+1
+        print(f"اشتباه بود! شما {attempts} بار تلاش کردید.")
+
+if user_input != password:
+    print("تعداد تلاش‌های شما تمام شد! دسترسی قطع شد.")
+
+####زوج یا فرد بودن
+
+
